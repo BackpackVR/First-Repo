@@ -3,7 +3,12 @@ guid: 82eb8d3b4d59dbe44953c7647f11b847
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: person color_
+    second: {fileID: 2100000, guid: ca068e1e1c1bfa942af1776379f2caba, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -19,7 +24,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
       in configuration does not match rotation in animation file:\n\t'lShldrTwist'
-      : rotation error = 14.950707 deg\n\t'lForearmTwist' : rotation error = 36.416706
+      : rotation error = 14.950708 deg\n\t'lForearmTwist' : rotation error = 36.416706
       deg\n\t'rShldrTwist' : rotation error = 40.296726 deg\n\t'rForearmTwist' :
       rotation error = 65.866295 deg\n\t'neckUpper' : rotation error = 10.890212
       deg\n"
