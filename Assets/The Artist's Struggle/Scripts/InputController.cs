@@ -8,6 +8,15 @@ public class InputController : MonoBehaviour
     public InputActionReference inputReference;
     public GameObject uiInstructions;
 
+    private void Start()
+    {
+        uiInstructions.SetActive(false);
+    }
+
+    public void EnableInstructions()
+    {
+        uiInstructions.SetActive(true);
+    }
     private void InputPressed(InputAction.CallbackContext ctx)
     {
         uiInstructions.SetActive(false);

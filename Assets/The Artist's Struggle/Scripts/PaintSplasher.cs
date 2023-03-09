@@ -26,7 +26,8 @@ public class PaintSplasher : MonoBehaviour
     private void ShootPressed(InputAction.CallbackContext ctx)
     {
         ShootProjectile();
-        Debug.Log("i just shot the paintting!");
+        
+        Debug.Log("i just shot the painting!");
     }
     #endregion
 
@@ -44,23 +45,24 @@ public class PaintSplasher : MonoBehaviour
 
     void ShootProjectile()
     {
-        GameObject currentBullet = Instantiate(splatterPrefab, transform.position, Quaternion.identity);
+        GameObject currentBullet = Instantiate(splatterPrefab, spawnPos.position, Quaternion.identity);
 
         Rigidbody rb = currentBullet.GetComponent<Rigidbody>();
+        MeshRenderer rend = currentBullet.GetComponent<MeshRenderer>();
 
-        rb.AddForce(transform.forward * speedMultiplier, ForceMode.Impulse);
+        ChangeTubeMaterial(rend);
+        ChangeTubeMaterial(tubeMesh);
+
+        rb.AddForce(spawnPos.forward * speedMultiplier, ForceMode.Impulse);
         
-
-        ChangeTubeMaterial();
-
         Destroy(currentBullet, 6f);
 
     }
 
-    void ChangeTubeMaterial()
+    void ChangeTubeMaterial(MeshRenderer renderer)
     {
         Color randomRGB = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1));
-         
+        Debug.Log(randomRGB);
         tubeMesh.material.color = randomRGB;
     }
 }

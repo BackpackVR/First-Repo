@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class BulletCollisionCheck : MonoBehaviour
 {
+   
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Fractured"))
         {
             Destroy(collision.gameObject);
+
+            Destroy(gameObject);
         }
     }
 }
