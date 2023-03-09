@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/The Artist's Struggle/Scenes/MenuScene.unity
+    guid: 5ece0ab46adee8140a58ae2d7cd3d515
+  - enabled: 1
     path: Assets/The Artist's Struggle/Scenes/MasterScene_Sequence.unity
     guid: 37ff4c1658a4ec0499802f7f057e0dc2
   - enabled: 1

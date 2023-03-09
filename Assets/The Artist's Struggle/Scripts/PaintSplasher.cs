@@ -12,6 +12,8 @@ public class PaintSplasher : MonoBehaviour
 
     public InputActionReference shootInputRef;
 
+    private Color color;
+
     #region
     private void OnEnable()
     {
@@ -27,19 +29,20 @@ public class PaintSplasher : MonoBehaviour
     {
         ShootProjectile();
         
-        Debug.Log("i just shot the painting!");
+        //Debug.Log("i just shot the painting!");
     }
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        color = Random.ColorHSV(); 
     }
 
     // Update is called once per frame
     void Update()
     {
+
         
     }
 
@@ -49,20 +52,24 @@ public class PaintSplasher : MonoBehaviour
 
         Rigidbody rb = currentBullet.GetComponent<Rigidbody>();
         MeshRenderer rend = currentBullet.GetComponent<MeshRenderer>();
-
+       
         ChangeTubeMaterial(rend);
         ChangeTubeMaterial(tubeMesh);
 
         rb.AddForce(spawnPos.forward * speedMultiplier, ForceMode.Impulse);
         
-        Destroy(currentBullet, 6f);
+        Destroy(currentBullet, 5f);
+       
 
     }
 
     void ChangeTubeMaterial(MeshRenderer renderer)
     {
-        Color randomRGB = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1));
-        Debug.Log(randomRGB);
-        tubeMesh.material.color = randomRGB;
+                 
+        //Debug.Log(color);
+        tubeMesh.material.color = color;
+        color = Random.ColorHSV();
     }
+
+
 }

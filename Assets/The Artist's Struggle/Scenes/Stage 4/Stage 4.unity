@@ -15,10 +15,10 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.4121129, g: 0.42883, b: 0.46226418, a: 1}
+  m_FogColor: {r: 0.5149964, g: 0.5626317, b: 0.6698113, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.02
-  m_LinearFogStart: -6.48
+  m_LinearFogStart: -0.7
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.12148453, g: 0.12375402, b: 0.13207549, a: 1}
   m_AmbientEquatorColor: {r: 0.12335349, g: 0.20783193, b: 0.26415092, a: 1}
@@ -289,6 +289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &182637533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -436,6 +437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &213986070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -676,6 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &335632770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -788,6 +791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &346421899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -894,7 +898,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 7697806496735828761, guid: 998f0c695a8044841ab836b3e1fdc236,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 764de24dc63ef8f4b8fda7d4875fb9c8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2ab1dc23e6ab5b843befb245ff22bb88, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1158,6 +1162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &357483875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1270,6 +1275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &377154999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1382,6 +1388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &445303131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1494,6 +1501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &461952130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1606,6 +1614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &477123430
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1718,6 +1727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &479429625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1927,6 +1937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &539654714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2039,6 +2050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &540478884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2151,6 +2163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &540784229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2263,6 +2276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &553577867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2490,6 +2504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &601884032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2602,6 +2617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &646040655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2804,6 +2820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &662898082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3080,6 +3097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &790724326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3289,6 +3307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &821251615
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3709,6 +3728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &911087732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3934,6 +3954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &940984502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4199,6 +4220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1001279848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4311,6 +4333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1009833330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4423,6 +4446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1019875593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4535,6 +4559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1032480165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4647,6 +4672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1043293734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4835,6 +4861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1055089062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5074,6 +5101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1061244374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5186,6 +5214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1073373960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5382,6 +5411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1116835876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5494,6 +5524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1125025706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5684,6 +5715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1158116428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5827,6 +5859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1212684878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5973,6 +6006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1253864115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6169,6 +6203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1292486663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6281,6 +6316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1351986994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6393,6 +6429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1374272995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6505,6 +6542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1377944876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6732,6 +6770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1389168864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7102,6 +7141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1464624230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7214,6 +7254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1517694894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7358,6 +7399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1571290534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7646,6 +7688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1675196088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7842,6 +7885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1726823720
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7954,6 +7998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &1753284350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8585,6 +8630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &2005937204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9306,6 +9352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &2112176955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9407,8 +9454,6 @@ PlayableDirector:
     value: {fileID: 356402810}
   - key: {fileID: -211230445273355538, guid: 0aa020c7f4568c942abc4ee2cc17b8f0, type: 2}
     value: {fileID: 1877277520}
-  - key: {fileID: 5953541767663084768, guid: 0aa020c7f4568c942abc4ee2cc17b8f0, type: 2}
-    value: {fileID: 1523616788}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2123591439
@@ -9501,6 +9546,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 2087459133}
+          m_TargetAssemblyTypeName: InputController, Assembly-CSharp
+          m_MethodName: EnableInstructions
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2127339768
 GameObject:
   m_ObjectHideFlags: 0
@@ -9550,6 +9607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 317408294}
   soundToPlay: {fileID: 8300000, guid: 7657247019ecf64429733292ff0635b4, type: 3}
+  tagName: Player
 --- !u!65 &2127339771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11725,7 +11783,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.043298315, g: 0.052141413, b: 0.066037714, a: 0}
+  m_BackGroundColor: {r: 0.040227838, g: 0.051975798, b: 0.0754717, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
