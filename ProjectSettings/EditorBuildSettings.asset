@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/The Artist's Struggle/Scenes/MasterScene_Sequence.unity
     guid: 37ff4c1658a4ec0499802f7f057e0dc2
+  - enabled: 1
+    path: Assets/The Artist's Struggle/Scenes/Stage 2/Stage 2.unity
+    guid: 13aa81f4a6cbfa14c98f4c6955ed735c
+  - enabled: 1
+    path: Assets/The Artist's Struggle/Scenes/Stage 3 .2/Stage 3.2.unity
+    guid: 479bf80db12d9e1418363e0361846b76
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 38f4302de604d464bbb67c5e4eb2104f,
       type: 2}

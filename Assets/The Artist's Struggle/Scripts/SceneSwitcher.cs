@@ -5,12 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public void playGame()
+    private float delay;
+    public void LoadLevel(string sceneName)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(sceneName);
     }
-    public void Back()
+    public void NextLevel(float waitTime)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        delay = waitTime;
+        StartCoroutine(NextLevelRoutine());
+    }
+
+    IEnumerator NextLevelRoutine()
+    {
+        yield return new WaitForSeconds(delay);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

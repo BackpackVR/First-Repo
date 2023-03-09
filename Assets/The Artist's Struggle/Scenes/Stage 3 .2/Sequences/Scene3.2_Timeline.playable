@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 5.216666666666667
+  m_Time: 3.066666666666667
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 13729ebcf8b96a84492def86c20a16b3, type: 2}
@@ -75,10 +75,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 5.216666666666667
+    m_Start: 3.066666666666667
     m_ClipIn: 0
-    m_Asset: {fileID: 6852357210729229158}
-    m_Duration: 3.131655328798186
+    m_Asset: {fileID: 6371137969484840178}
+    m_Duration: 4.8219047619047615
     m_TimeScale: 1
     m_ParentTrack: {fileID: 394407931336222317}
     m_EaseInDuration: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Stage3_01_01_Fear Started Impacting Other Parts
+    m_DisplayName: Stage3_01_02_Avoided Places
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -187,11 +187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 8.348321995464852
+  m_Time: 7.888571428571428
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 8736371157a720f4082ff2cf04084f7d, type: 2}
---- !u!114 &6852357210729229158
+--- !u!114 &6371137969484840178
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 6ca813400f2386b46b66e7d06a792b2c, type: 3}
+  m_Clip: {fileID: 8300000, guid: f8b00a1e674e5c546a92f44fdce40d65, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
