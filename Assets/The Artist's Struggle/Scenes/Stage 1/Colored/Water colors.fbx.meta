@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: b801f8aa79285154db09148e7185b7ad
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Case
+    second: {fileID: 2100000, guid: c0310b84fa71974448c56a0e8eff4700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paints
+    second: {fileID: 2100000, guid: 3071d92935339d847add2499a15416de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rings
+    second: {fileID: 2100000, guid: 043c4fb036adecf49b8d334377bcd8ce, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_CanvasA
+    second: {fileID: 2800000, guid: 9c734920c72c06e42aaff19b1dd89bdf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_CanvasB
+    second: {fileID: 2800000, guid: cec34b435e3fb96408d0e6d2db54440a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Easel
+    second: {fileID: 2800000, guid: e2023c8c704756a448e124ad39471033, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Eraser
+    second: {fileID: 2800000, guid: 569296d126de0f243b89fa46722b34ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Holder
+    second: {fileID: 2800000, guid: f70b566c6fbaee24ca0fb42517bc249d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_HolderB
+    second: {fileID: 2800000, guid: 4d7a4282c9ae5af46a38347b283108f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker
+    second: {fileID: 2800000, guid: 2554bd003700ece4abf1573ca554ab30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker122
+    second: {fileID: 2800000, guid: 0230134965838084aad59547200b81aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker17
+    second: {fileID: 2800000, guid: e5e71e5253b13484a94a9930c8424a51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker174
+    second: {fileID: 2800000, guid: 9412dc0793321ce4f9867033e5e8ad7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker3
+    second: {fileID: 2800000, guid: 9e8c9dd01c51c5140a558220cadd5e58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker59
+    second: {fileID: 2800000, guid: f8ac34607d1751e45af6d6d6344bba79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Marker67
+    second: {fileID: 2800000, guid: 8352afd6136e4984f81fb871928aff35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_MarkerBG3
+    second: {fileID: 2800000, guid: b51d512f29f11bd4dabcf42a17e17a14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_OilPastelsA
+    second: {fileID: 2800000, guid: 3ffe5dc69e2d9cb41be9c6aedf1fd55b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_OilPastelsB
+    second: {fileID: 2800000, guid: 69ecdf7a074e70d46bf9b02b0c8c1c24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_OilPastelsC
+    second: {fileID: 2800000, guid: 61bf268cf9867134ab8776a0981b966c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaintBrushAngle
+    second: {fileID: 2800000, guid: 968f34fad4ebdb640a96b84b26de8275, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaintBrushFan
+    second: {fileID: 2800000, guid: 54be08196c60e1d419c531cbf89f0f47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaintBrushFlat
+    second: {fileID: 2800000, guid: 71ef22f20f84d054c88c90c204bf09ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaintBrushRound
+    second: {fileID: 2800000, guid: b3e20711f7e8570498ad39c212e6eea6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaintTubeFull
+    second: {fileID: 2800000, guid: 6035850d694716449a13cead96cd070f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaintTubeSqueezed2
+    second: {fileID: 2800000, guid: 3daf493a2ad7f784398eef19611044ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Palette
+    second: {fileID: 2800000, guid: 776dec499659c624e93be59acdcb12f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_PaperTrash
+    second: {fileID: 2800000, guid: 8435e4b755452974d93467c47343e959, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Pencil
+    second: {fileID: 2800000, guid: 04a66f4b507b08d4888f16d5fee7ff55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Sharpener
+    second: {fileID: 2800000, guid: 361ce62ccbc510641bc13eb7ca7ed6b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Shavings
+    second: {fileID: 2800000, guid: a63f7d6aff22f4641a652aff6f6d5ebd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_SketchPad
+    second: {fileID: 2800000, guid: 8dd777ed51da3224191e11dcb8b5315e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_Trowel
+    second: {fileID: 2800000, guid: ba5f0f703190fea4aae1bc5f05b1f0dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_WaterColourPaintA
+    second: {fileID: 2800000, guid: 183132de8f3e8d04a9d6321c3d72e1a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_WaterColourPaintB
+    second: {fileID: 2800000, guid: 483397f7722f5484782a4679dbed9cfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SvaHobbyPropsArtSupplies_WaterCup
+    second: {fileID: 2800000, guid: 5bbdc4206116c3f4fb7f6048631898dd, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
