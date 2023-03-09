@@ -11,7 +11,7 @@ public class InputController : MonoBehaviour
     private void InputPressed(InputAction.CallbackContext ctx)
     {
         uiInstructions.SetActive(false);
-        Debug.Log("button Pressed!");
+       // Debug.Log("button Pressed!");
     }
 
     private void OnEnable()
