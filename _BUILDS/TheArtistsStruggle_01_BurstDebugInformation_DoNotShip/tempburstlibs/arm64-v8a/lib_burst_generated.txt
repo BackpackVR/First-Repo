@@ -178,6 +178,7 @@ Library: lib_burst_generated
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
+--root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\DOTween.Modules.dll
@@ -192,7 +193,6 @@ Library: lib_burst_generated
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.MockRuntime.dll
---root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=Z:\Projects\MC Hackathon\UnityProject\First-Repo\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
