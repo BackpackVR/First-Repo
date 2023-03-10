@@ -11,6 +11,7 @@ public class InputController : MonoBehaviour
     public GameObject uiInstructions;
 
     public bool changeScene = false;
+    public string sceneToChangeTo;
 
     private void Start()
     {
@@ -27,7 +28,7 @@ public class InputController : MonoBehaviour
         // Debug.Log("button Pressed!");
         if (changeScene)
         {
-            SceneManager.LoadScene("MenuScene");
+            SceneManager.LoadScene(sceneToChangeTo);
         }
     }
 
